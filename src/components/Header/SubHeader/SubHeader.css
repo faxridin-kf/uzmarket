@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #777;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.marginTop {
+  margin-top: 30px;
+}
+
+.flexBlock,
+.headerLinksBlock,
+.signUpBlock,
+.optionBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.optionBlock {
+  width: 30%;
+}
+
+.headerlinks:first-child {
+  margin-left: 0;
+  list-style: none;
+}
+
+.headerlinks {
+  margin-left: 20px;
+}
+
+/* color ni ozgartirish */
+
+
+
+.slash {
+  margin: 0 5px 0 5px;
+}
+
+.langBlock {
+  margin-left: 20px;
+}
+
+.langtitleActive {
+  color: #7ac143;
+}
+
+.signIn:hover,
+.signUp:hover {
+  color: #7ac143;
+  /* accordion ni textlariniham hover qiliw kk */
+}

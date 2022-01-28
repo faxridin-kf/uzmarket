@@ -1,0 +1,66 @@
+.cartItem {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  height: 340px;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 7px;
+  padding: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.cartItem:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .05);
+}
+
+.goodsItemImgWrapper {
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 220px;
+  height: 136px;
+  overflow: hidden;
+  margin: 0 auto 25px auto;
+}
+
+.gooodsImg {
+  display: block;
+  width: 100%;
+}
+
+.goodName {
+  font-size: 13px;
+  line-height: 15px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.goodPrice {
+  font-size: 13px;
+  line-height: 15px;
+  color: #878787;
+  margin-bottom: 15px;
+}
+
+.cartItem {
+  margin-bottom: 40px;
+
+}
+
+.goodPricetext {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #555;
+  display: inline-block;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 2px;
+}

@@ -1,0 +1,25 @@
+.goodsItemBtns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.goodsItemBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+  background-color: #7ac143;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.iconCard {
+  vertical-align: middle;
+  border-style: none;
+}

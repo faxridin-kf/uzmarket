@@ -1,0 +1,87 @@
+.flexBock {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchBlock {
+  display: flex;
+  align-items: center;
+  width: 445px;
+  position: relative;
+}
+
+.headerSearchBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50px;
+  height: 100%;
+  background-color: #7ac143;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  border: none;
+  outline: none;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.headerSearchInputField {
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, .1);
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, .1);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 16px;
+  height: 43px;
+  padding: 12px 70px 12px 20px;
+  outline: none;
+}
+
+.midleRightBlock {
+  display: flex;
+  align-items: center;
+}
+
+.optionImg {
+  width: 30px;
+}
+
+.orderImg {
+  margin: 0 5px 0 5px;
+}
+
+.priceNum {
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.midleRightBlock {
+  background-color: transparent;
+  color: #d2d2d2;
+  padding: 0;
+  margin: 0 0 0 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.midleRightBlock svg {
+  stroke: #d2d2d2;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  margin-right: 10px;
+}
