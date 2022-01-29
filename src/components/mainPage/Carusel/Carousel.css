@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.item-1 {
+  background: red;
+}
+
+.item-2 {
+  background: rgb(28, 26, 180);
+}
+
+.item-3 {
+  background: rgb(24, 212, 34);
+}
+
+.item-4 {
+  background: rgb(56, 32, 32);
+}

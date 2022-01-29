@@ -1,7 +1,7 @@
 import React from 'react';
 import './MainHeader.css';
 import logo from '../../../assets/logo-new.png';
-import give from '../../../assets/give_hope.png';
+import search from '../../../assets/search.png';
 
 function MainHeader() {
   return (
@@ -16,7 +16,7 @@ function MainHeader() {
               placeholder="Поиск товаров по каталогу"
             />
             <button className="headerSearchBtn">
-              <img width="35" src={give} />
+              <img width="20" src={search} />
             </button>
           </form>
           <div className="midleRightBlock">

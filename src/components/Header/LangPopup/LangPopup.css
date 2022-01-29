@@ -1,4 +1,4 @@
-   .svgNoRotated {
+   /* .svgNoRotated {
      margin-right: 8px;
      transform: rotate(180deg);
      transition: 1s;
@@ -17,3 +17,8 @@
      font-weight: bold;
      color: #7ac143;
    }
+*/ .langPopupFrom {
+  border: none !important;
+  outline: none !important;
+
+}

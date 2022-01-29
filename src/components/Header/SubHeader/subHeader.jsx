@@ -2,19 +2,22 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { setSortBy } from '../../../redux/actions/fillterlang';
 import LangPopup from '../LangPopup/LangPopup';
+import LocationPopup from '../LocationPopup/LocationPopup';
 import avatar from '../../../assets/user.png';
 import './SubHeader.css';
-const LangCategory = ['Русский', 'Узбекский', 'Англиский'];
+// const LangCategory = ['Русский', 'Узбекский', 'Англиский'];
 function SubHeader() {
-  const dispatch = useDispatch();
-  const { sortBy } = useSelector(({ filters }) => filters);
-  const onSelectLangType = React.useCallback((type) => {
-    dispatch(setSortBy(type));
-  }, []);
+  // const dispatch = useDispatch();
+  // const { sortBy } = useSelector(({ filters }) => filters);
+  // const onSelectLangType = React.useCallback((type) => {
+  //   dispatch(setSortBy(type));
+  // }, []);
   return (
     <div className="container">
       <div className="flexBlock marginTop">
-        <div className="block">Ташкент</div>
+        <div className="block">
+          <LocationPopup />
+        </div>
         {/* accordion */}
         <div className="block">
           <ul className="headerLinksBlock">
@@ -50,11 +53,11 @@ function SubHeader() {
               <p className="langTitle">анг</p>
              
             </div> */}
-            {/* <LangPopup
-              activeSortType={sortBy.type}
-              items={LangCategory}
-              onClickSortType={onSelectLangType}
-            /> */}
+            <LangPopup
+            // activeSortType={sortBy.type}
+            // items={LangCategory}
+            // onClickSortType={onSelectLangType}
+            />
           </div>
         </div>
       </div>
