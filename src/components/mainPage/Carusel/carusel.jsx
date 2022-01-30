@@ -1,15 +1,36 @@
 import React from 'react';
+import { Carousel } from '@trendyol-js/react-carousel';
 import './Carousel.css';
-import { Carousel } from './MainCarousel/Carousel';
+import Goods from '../Goods/Goods';
+import Right from '../../../assets/right.png';
+import Left from '../../../assets/left.png';
 function Carousell() {
   return (
-    <Carousel>
-      <div className="item item-1">item 1</div>
-      <div className="item item-2">item 2</div>
-      <div className="item item-3">item 3</div>
-      <div className="item item-4">item 4</div>
-    </Carousel>
+    <>
+      <Carousel
+        className="containerr"
+        rightArrow={
+          <button className="arrowRightBtn">
+            <img src={Right} alt="right" />
+          </button>
+        }
+        leftArrow={
+          <button className="arrowLeftBtn">
+            <img src={Left} alt="left" />
+          </button>
+        }
+        infinite={true}
+        show={4.5}
+        slide={1}
+        swiping={true}>
+        <Goods />
+        <Goods />
+        <Goods />
+        <Goods />
+        <Goods />
+      </Carousel>
+      ,
+    </>
   );
 }
-
 export default Carousell;

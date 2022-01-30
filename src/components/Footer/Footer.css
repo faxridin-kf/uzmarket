@@ -47,7 +47,8 @@ ul {
 }
 
 .footerBlockMenuLink img {
-  width: 60px;
+  width: 100px;
+  margin-left: 20px;
 }
 
 .payFlexBlock {

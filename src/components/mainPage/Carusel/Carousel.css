@@ -1,22 +1,40 @@
-.item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  user-select: none;
+.arrowRightBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  position: absolute;
+  margin-top: 126px;
+  margin-left: -1.5%;
+  transition: .6s;
+  cursor: pointer;
 }
-
-.item-1 {
-  background: red;
+.arrowLeftBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  position: absolute;
+  margin-top: 126px;
+  margin-left: -2.2%;
+  z-index: 9999;
+  transition: .6s;
+  cursor: pointer;
 }
-
-.item-2 {
-  background: rgb(28, 26, 180);
+.arrowLeftBtn:hover,
+.arrowRightBtn:hover {
+  background: #7ac143;
+  transition: .6s;
 }
-
-.item-3 {
-  background: rgb(24, 212, 34);
+.arrowLeftBtn img,
+.arrowRightBtn img {
+  width: 20px;
+  vertical-align: middle;
+  text-align: center;
 }
-
-.item-4 {
-  background: rgb(56, 32, 32);
+.containerr {
+  width: 90% !important;
+  margin: 0 auto;
 }

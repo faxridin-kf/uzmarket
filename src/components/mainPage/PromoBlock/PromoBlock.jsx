@@ -1,7 +1,8 @@
 import React from 'react';
+import { Carousel } from '@trendyol-js/react-carousel';
 import './PromoBlock.css';
 import hope from '../../../assets/give_hope.png';
-import banner from '../../../assets/banner.png';
+import banner from '../../../assets/banner1.jpg';
 function PromoBlock() {
   return (
     <div className="container">
@@ -12,6 +13,20 @@ function PromoBlock() {
         </a>
       </div>
       <div className="owlItemPromo">
+        <Carousel show={1} slide={1} swiping={true}>
+          <a href="#" className="promoBanner">
+            <img className="promoItemImage" src={banner} alt="banner" />
+          </a>
+          <a href="#" className="promoBanner">
+            <img className="promoItemImage" src={banner} alt="banner" />
+          </a>
+          <a href="#" className="promoBanner">
+            <img className="promoItemImage" src={banner} alt="banner" />
+          </a>
+          <a href="#" className="promoBanner">
+            <img className="promoItemImage" src={banner} alt="banner" />
+          </a>
+        </Carousel>
         <a href="#" className="promoBanner">
           <img className="promoItemImage" src={banner} alt="banner" />
         </a>

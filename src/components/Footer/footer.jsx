@@ -1,6 +1,12 @@
 import React from 'react';
 import './Footer.css';
-import pay from '../../assets/credit-card.png';
+import playMarket from '../../assets/google_play.png';
+import appStore from '../../assets/app_store.png';
+import MasterCard from '../../assets/MasterCard.png';
+import Visa from '../../assets/Visa.png';
+import Humo from '../../assets/Humo.png';
+import Uzcard from '../../assets/Uzcard.png';
+
 function Footer() {
   return (
     <footer className="footer">
@@ -89,25 +95,37 @@ function Footer() {
               <div className="payFlexBlock">
                 <li class="footerBlockMenuItem">
                   <a href="https://makromarket.uz/pages/texpodderzka" class="footerBlockMenuLink">
-                    <img src={pay} alt="" />
+                    <img src={playMarket} alt="" />
                   </a>
                 </li>
 
                 <li class="footerBlockMenuItem">
                   <a href="https://makromarket.uz/pages/usloviya" class="footerBlockMenuLink">
-                    <img src={pay} alt="" />
+                    <img src={appStore} alt="" />
                   </a>
                 </li>
               </div>
               <div className="payFlexBlock">
                 <li class="footerBlockMenuItem">
                   <a href="https://makromarket.uz/yandex-plus" class="footerBlockMenuLink">
-                    <img src={pay} alt="" />
+                    <img src={MasterCard} alt="" />
                   </a>
                 </li>
                 <li class="footerBlockMenuItem">
                   <a href="https://makromarket.uz/draws" class="footerBlockMenuLink">
-                    <img src={pay} alt="" />
+                    <img src={Visa} alt="" />
+                  </a>
+                </li>
+              </div>
+              <div className="payFlexBlock">
+                <li class="footerBlockMenuItem">
+                  <a href="https://makromarket.uz/yandex-plus" class="footerBlockMenuLink">
+                    <img src={Humo} alt="" />
+                  </a>
+                </li>
+                <li class="footerBlockMenuItem">
+                  <a href="https://makromarket.uz/draws" class="footerBlockMenuLink">
+                    <img src={Uzcard} alt="" />
                   </a>
                 </li>
               </div>

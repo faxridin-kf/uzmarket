@@ -37,9 +37,10 @@
   overflow: hidden;
 }
 
-.promoItemimage {
+.promoItemImage {
   height: 100%;
   width: auto !important;
   max-width: unset !important;
   border-style: none;
+  user-select: none;
 }
